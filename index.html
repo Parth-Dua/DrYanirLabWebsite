@@ -1,100 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yanir Rubinstein's Sports Analytics Lab</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mathematical Motion Lab</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Yanir Rubinstein's Sports Analytics Lab</h1>
-        <p>Using Sports to Inspire the Next Generation of STEM Leaders</p>
-    </header>
+  <!-- ────────── Header ─────────────────────────────────────── -->
+  <header>
+    <h1>Mathematical Motion Lab</h1>
+    <p class="subtitle">Using Sports to Inspire the Next Generation of STEM Leaders</p>
+  </header>
 
-    <nav>
-        <a href="#what-we-do">What We Do</a>
-        <a href="#contact-us">Contact Us</a>
-    </nav>
+  <!-- ────────── Navigation ─────────────────────────────────── -->
+  <nav>
+    <a href="#inspiration">Our Inspiration</a>
+    <a href="#what-we-do">What We Do</a>
+    <a href="#awards">Awards &amp; In The News</a>
+    <a href="#contact-us">Contact Us</a>
+  </nav>
 
-    <section id="what-we-do">
-        <h2>What We Do</h2>
-        <div class="grid-container">
-            <div class="grid-item img-container">
-                <img src="DrRubinsteinPlayingBasketBall.jpg" alt="Dr. Rubinstein playing basketball" />
-            </div>
-            <div class="grid-item content">
-                <p>
-                    The lab bridges the gap between mathematics and real-life
-                    applications by connecting STEM education to sports. Funded by the
-                    Grand Challenges Grant, our mobile math lab travels to schools,
-                    showcasing how analytics can be used to improve sports performance.
-                    <br />
-                    <br />
-                    Through hands-on activities, students interact with motion capture
-                    tools and cutting-edge analytics software, making STEM concepts
-                    practical and relatable. Coaches can collaborate with us to inspire
-                    young minds to pursue careers in STEM fields while refining athletic
-                    performance.
-                </p>
-            </div>
-        </div>
-        <div class="grid-container">
-            <div class="grid-item content">
-                <p>
-                    We focus on students traditionally underrepresented in STEM,
-                    including minorities and women, aiming to address educational
-                    disparities. By blending sports and STEM, we empower students to see
-                    the relevance of these fields in their daily lives and future
-                    careers.
-                    <br />
-                    <br />
-                    <strong>Our mission:</strong> To foster an inclusive environment
-                    where learning and passion meet through innovation and outreach.
-                </p>
-            </div>
-            <div class="grid-item img-container">
-                <img src="DrRubinsteinTeaching.JPG" alt="Dr. Rubinstein teaching students" />
-            </div>
-        </div>
-    </section>
+  <section id="inspiration">
+    <h2>Our Inspiration</h2>
+  
+    <!-- centred image -->
+    <img src="Outreach_pic.jpg"
+         class="inspiration-img"
+         alt="Students playing sports and learning math">
+  
+    <!-- full‑width paragraph underneath -->
+    <p class="inspiration-text">
+      It is no secret that kids love to play sports but may be less excited about their math homework.
+      By bringing the Mathematical Motion Lab to schools, we show kids that mathematics can have a real
+      impact on sports, and we harness their passion for sports to spark their interest in math and STEM.
+    </p>
+  </section>
 
-    <section id="contact-us">
-        <h2>Contact Us</h2>
-        <script type="text/javascript">
-            var submitted = false;
-        </script>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
-            onload="if(submitted) {window.location='index.html';}"></iframe>
+  <!-- ────────── What We Do ──────────────────────────────────── -->
+  <section id="what-we-do">
+    <h2>What We Do</h2>
 
-        <form
-            action="https://docs.google.com/forms/d/e/1FAIpQLSflaDoZHzqcPeLFYBx16zz5hJP_xzsoFw67SpwzUSV-KXdyGQ/formResponse">
-            <input type="text" name="entry.2005620554" placeholder="Your Name" required />
-            <input type="email" name="entry.1045781291" placeholder="Your Email" required />
-            <textarea name="entry.1065046570" placeholder="Your Message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <div class="container">
-            <p>You can reach us via email or visit the professor's website:</p>
-            <ul>
-                <li>Email: <a href="mailto:yanir@umd.edu">yanir@umd.edu</a></li>
-                <li>
-                    Professor's Website:
-                    <a href="https://www-math.umd.edu/people/faculty/item/711-yanir.html" target="_blank">Yanir
-                        Rubinstein</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <!-- Row 1 -->
+    <div class="grid-container">
+      <div class="img-wrapper">
+        <img src="DrRubinsteinPlayingBasketBall.jpg" class="responsive-img" alt="Dr. Rubinstein playing basketball" />
+      </div>
 
-    <footer>
+      <div class="text-wrapper">
         <p>
-            &copy; 2025 Yanir Rubinstein's Sports Analytics Lab |
-            <a href="#what-we-do">Back to Top</a>
+          The lab bridges the gap between mathematics and real‑life applications by connecting STEM education
+          to sports. Our mobile math lab travels to schools, showcasing how analytics can be used to improve
+          sports performance.
+          <br><br>
+          Through hands‑on activities, students interact with motion‑capture tools and cutting‑edge analytics
+          software, making STEM concepts practical and relatable. Coaches collaborate with us to inspire young
+          minds to pursue careers in STEM while refining athletic performance.
         </p>
-    </footer>
-</body>
+      </div>
+    </div>
 
+    <!-- Row 2 -->
+    <div class="grid-container flip">
+      <div class="img-wrapper">
+        <img src="DrRubinsteinTeaching.JPG" class="responsive-img" alt="Dr. Rubinstein teaching students" />
+      </div>
+
+      <div class="text-wrapper">
+        <p>
+          We aim to address educational disparities with our work. By blending sports and STEM, we empower
+          students to see the relevance of these fields in their daily lives and future careers.
+          <br><br>
+          <strong>Our mission:</strong> To foster an environment where learning and passion meet through
+          innovation and outreach.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ────────── Awards & In The News ───────────────────────── -->
+  <section id="awards">
+    <h2>Awards and In The News</h2>
+
+    <ul class="awards-list">
+      <li>🏆 Recipient of Grand Challenges Grant —
+          <a href="https://research.umd.edu/STEM-participation" target="_blank">Access the article</a></li>
+      <li>🏆 Recipient of Do Good Campus Fund Grant</li>
+    </ul>
+
+    <div class="img-center">
+      <img src="Skeleton_pic.png" class="responsive-img" alt="Outreach activity collage" />
+    </div>
+  </section>
+
+  <!-- ────────── Contact Us ─────────────────────────────────── -->
+  <section id="contact-us">
+    <h2>Would you like us to work with your school?</h2>
+
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none"
+            onload="if(submitted){window.location='index.html';}"></iframe>
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSflaDoZHzqcPeLFYBx16zz5hJP_xzsoFw67SpwzUSV-KXdyGQ/formResponse"
+          method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+      <input  type="text"  name="entry.2005620554" placeholder="Your Name"  required />
+      <input  type="email" name="entry.1045781291" placeholder="Your Email" required />
+      <textarea name="entry.1065046570" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-extra">
+      <p>You can also reach us via email or visit the professor’s website:</p>
+      <ul>
+        <li>Email: <a href="mailto:yanir@umd.edu">yanir@umd.edu</a></li>
+        <li>Professor’s Website:
+          <a href="https://www-math.umd.edu/people/faculty/item/711-yanir.html" target="_blank">
+            Yanir Rubinstein
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ────────── Footer ─────────────────────────────────────── -->
+  <footer>
+    <p>&copy; 2025 Mathematical Motion Lab | <a href="#inspiration">Back to Top</a></p>
+  </footer>
+
+  <script>var submitted=false;</script>
+</body>
 </html>
